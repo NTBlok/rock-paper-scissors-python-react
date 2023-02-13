@@ -1,0 +1,31 @@
+html {
+  --navbar: #000;
+  --primary-background-light: #eee;
+  --secondary-background-light: #bdbdbd;
+  --primary-background-dark: #424242;
+  --secondary-background-dark: #616161;
+  --header-background: #121212;
+  --primary-base: #FFFF00;
+  --primary: #FFFF00;
+  --secondary: #9acd32; 
+  --text-dark: #000;
+  --text-light: #fff;
+}
+
+body {
+  background-color: var(--primary-background-light) !important;
+}
+
+
+.animate-play {
+  animation: 0.5s linear 1s infinite alternate play-choice;
+}
+
+@keyframes play-choice {
+  from {
+    transform: translateY(5vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
