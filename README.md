@@ -6,6 +6,9 @@ To start the api:
 
 ```
 cd game-api
+python3 -m venv venv
+venv/bin/pip install --requirement requirements.txt
+source venv/bin/activate
 venv/bin/python app.py
 ```
 
@@ -31,5 +34,6 @@ To start the frontend app:
 
 ```
 cd ../game-app
+yarn
 yarn start
 ```
